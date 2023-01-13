@@ -6,8 +6,17 @@ body {
     /* width: 1440px; */
 }
 
+button {
+    border: none;
+}
+
+.section-welcome {
+    background-color: #F1F1F1;
+}
+
+/* Navbar */
+
 .navbar {
-    background-color: #E1DEE7;
     display: flex;
     justify-content: space-between;  
     align-items: center;
@@ -31,7 +40,7 @@ body {
 .nav-logo .text {
     margin-left: 10px;
     font-family: 'Kanit', sans-serif;
-    font-size: 18;
+    font-size: 18px;
     letter-spacing: 0.04em;
     font-style: normal;
     font-weight: 500;
@@ -50,10 +59,6 @@ body {
     font-weight: 500;   
     font-size: 14px;
     line-height: 18px;
-}
-
-button {
-    border: none;
 }
 
 .nav-buttons .home {
@@ -85,6 +90,97 @@ button {
     border-radius: 100px;
     padding: 10px, 12px, 10px, 12px;
 }
+
+/* Description  */
+
+.description {
+    display: flex;
+    align-items: center;
+    padding: 100px 80px 100px 80px;
+    height: 620px;
+}
+
+.description .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 495px;
+    height: 366px;
+    margin-right: 165px;
+}
+
+.description .info .get-hired-text {
+    width: 495px;
+    height: 192px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 54px;
+    letter-spacing: 0.04em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    order: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.description .info .best-tool-text {
+    width: 495px;
+    height: 44px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 32px 0 48px 0;
+}
+
+.description .info .how-it-works {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 144px;
+    background-color: #712FFF;
+    color: #FFFFFF;
+    border-radius: 100px;
+}
+
+.description .visual {
+    position: relative;
+    width: 619px;
+    height: 420px;    
+    border-radius: 32px;
+    overflow: hidden;
+}
+
+.description .visual .back-photo {
+    position: absolute;
+    width: 687px;
+    height: 458px;
+    left: -34px;
+    top: -12px;
+}
+
+.description .visual .dollar {
+    position: absolute;
+    width: 139px;
+    height: 181px;
+    left: 213px;
+    top: 0px;
+}
+
+.description .visual .fire {
+    position: absolute;
+    width: 148px;
+    height: 172px;  
+    margin: 217px 34px 31px 437px;
+} 
 
 
 
