@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body {
+    margin: 0;
+    /* width: 1440px; */
+}
+
+.navbar {
+    background-color: #E1DEE7;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 62px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    height: 22px;
+    width: 114.68px;
+}
+
+.nav-logo img {
+    height: 22px;
+    width: 18.68px;
+}
+
+.nav-logo .text {
+    margin-left: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18;
+    letter-spacing: 0.04em;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color: #081E34;
+    margin: 16px;
+    width: 410px;
+    height: 38px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;   
+    font-size: 14px;
+    line-height: 18px;
+}
+
+button {
+    border: none;
+}
+
+.nav-buttons .home {
+    background-color: transparent;
+    height: 38px;
+    width: 64px;
+    padding: 10px, 12px, 10px, 12px;
+}
+
+.nav-buttons .about-us {
+    background-color: transparent;
+    height: 38px;
+    width: 85px;
+    padding: 10px, 12px, 10px, 12px;
+}
+
+.nav-buttons .how-it-works {
+    background-color: transparent;
+    height: 38px;
+    width: 111px;
+    padding: 10px, 12px, 10px, 12px;
+}
+
+.nav-buttons .get-started {
+    background-color: rgba(8, 30, 52, 0.12);
+    color: #081E34;
+    height: 38px;
+    width: 102px;
+    border-radius: 100px;
+    padding: 10px, 12px, 10px, 12px;
+}
+
+
+
