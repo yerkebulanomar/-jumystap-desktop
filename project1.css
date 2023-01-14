@@ -284,4 +284,90 @@ button {
     margin: 0;
 }
 
+/* Section three */
+
+.section-input {
+   height: 422px;
+   display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px 80px;
+    background-color: #F1F1F1;
+
+}
+
+.section-input .input-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 757px;
+    height: 222px;
+}
+
+.section-input .input-field .lets-get-started-text {
+    display: flex;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    margin: 0 0 32px 0;
+}
+
+.section-input .input-field h2 {
+    display: flex;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    margin: 0 0 32px 0;
+}
+
+.section-input .input-field h4 {
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 0 32px 0;
+}
+
+.section-input .input-field .button-part {
+    display: flex;
+    align-items: flex-start;
+    height: 50px;
+}
+
+.section-input .input-field .button-part input[type="text"] {
+    box-sizing: border-box;
+    width: 619px;
+    height: 50px;
+    border: 1px;
+    border-color: solid #E1DEE7;
+    border-radius: 12px;
+    background: url(/assets/TextField.png);
+    background-position: 13px 13px;
+    opacity: 0.2;
+    background-repeat: no-repeat;
+}
+
+.section-input .input-field .button-part .submit {
+
+}
+
+/* .section-input .input-field .button-part .search-button img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 13px;
+    top: 13px;
+    opacity: 0.2;
+} */
+
+
 
