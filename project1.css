@@ -337,37 +337,50 @@ button {
     margin: 0 0 32px 0;
 }
 
-.section-input .input-field .button-part {
+.section-input .input-field .input-part {
     display: flex;
     align-items: flex-start;
     height: 50px;
 }
 
-.section-input .input-field .button-part input[type="text"] {
+.section-input .input-field .input-part input[type="text"] {
+    background-color: #FFFFFF;
     box-sizing: border-box;
     width: 619px;
     height: 50px;
-    border: 1px;
-    border-color: solid #E1DEE7;
+    border: 1px solid #E1DEE7;
     border-radius: 12px;
-    background: url(/assets/TextField.png);
-    background-position: 13px 13px;
-    opacity: 0.2;
-    background-repeat: no-repeat;
+    padding: 0 0 0 49px;
+    margin-right: 32px;
+    background: url(/assets/TextField.png) no-repeat scroll 24px 24px;
+    background-position: left 13px top 13px;
 }
 
-.section-input .input-field .button-part .submit {
-
-}
-
-/* .section-input .input-field .button-part .search-button img {
+input[type="text"]::before {
+    content: "";
     position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 13px;
-    top: 13px;
-    opacity: 0.2;
-} */
+    background-color: rgba(255,255,255,0.2);
+}
+
+.section-input .input-field .input-part input[type="submit"] {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #712FFF;
+    box-sizing: border-box;
+    width: 106px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 16px 24px 16px 24px;
+}
+
 
 
 
