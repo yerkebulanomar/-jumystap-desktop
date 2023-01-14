@@ -343,6 +343,15 @@ button {
     height: 50px;
 }
 
+.input-part img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 13px;
+    top: 13px;
+    opacity: 0.2;
+}
+
 .section-input .input-field .input-part input[type="text"] {
     background-color: #FFFFFF;
     box-sizing: border-box;
@@ -351,15 +360,7 @@ button {
     border: 1px solid #E1DEE7;
     border-radius: 12px;
     padding: 0 0 0 49px;
-    margin-right: 32px;
-    background: url(/assets/TextField.png) no-repeat scroll 24px 24px;
-    background-position: left 13px top 13px;
-}
-
-input[type="text"]::before {
-    content: "";
-    position: absolute;
-    background-color: rgba(255,255,255,0.2);
+    margin: 0 32px 0 -24px;
 }
 
 .section-input .input-field .input-part input[type="submit"] {
@@ -380,6 +381,8 @@ input[type="text"]::before {
     line-height: 18px;
     padding: 16px 24px 16px 24px;
 }
+
+/* Section four */
 
 
 
