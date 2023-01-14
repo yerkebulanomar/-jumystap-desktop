@@ -384,6 +384,112 @@ button {
 
 /* Section four */
 
+.section-CV-submission {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 64px 80px;
+    height: 548px;
+    background-color: #F1F1F1;
+}
 
+.CV-submission {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
+.CV-submission .visual {
+    position: relative;
+    width: 619px;
+    height: 420px;    
+    border-radius: 24px;
+    overflow: hidden;
+    margin-right: 128px;
+}
+
+.CV-submission .visual .dude {
+    position: absolute;
+    width: 700px;
+    height: 466.67px;
+    left: -40px;
+    top: -23px; 
+}
+
+.CV-submission .visual .star {
+    position: absolute;
+    width: 97px;
+    height: 94px;   
+    left: 213px;
+    top: 28px;
+}
+
+.CV-submission .visual .lightning {
+    position: absolute;
+    width: 87px;    
+    height: 144px;
+    left: 22px;
+    top: 138px;
+}
+
+.CV-submission .text-part {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.CV-submission .text-part h2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Kanit',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 56px;
+    margin-bottom: 32px;
+}
+
+.CV-submission .text-part p {
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 32px;
+}
+
+.CV-submission .text-part button {
+    width: 114px;   
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px 16px 16px;
+    background: #712FFF;
+    border-radius: 100px;
+}
+
+.CV-submission .text-part button p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0 0 0 8px;
+    padding: 0;
+}
+
+.CV-submission .text-part button img {
+    width: 18px;
+    height: 18px;
+}
 
