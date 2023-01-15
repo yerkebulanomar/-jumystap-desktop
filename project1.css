@@ -3,7 +3,7 @@
 
 body {
     margin: 0;
-    /* width: 1440px; */
+    width: 1440px;
 }
 
 button {
@@ -14,6 +14,7 @@ button {
 
 .section-welcome {
     background-color: #F1F1F1;
+
 }
 
 /* Navbar */
@@ -56,7 +57,7 @@ button {
     margin: 16px;
     width: 410px;
     height: 38px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -99,7 +100,7 @@ button {
     display: flex;
     align-items: center;
     padding: 100px 80px 100px 80px;
-    height: 620px;
+    /* height: 620px; */
 }
 
 .description .info {
@@ -187,13 +188,16 @@ button {
 /* Section two */
 
 .section-how-it-works {
+    background-color: #F1F1F1;
+}
+
+.section-how-it-works .how-it-works {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #E1DEE7;
     padding: 100px 80px;
-    height: 562px;
     border-radius: 32px;
 }
 
@@ -209,7 +213,7 @@ button {
 .text-box .small-text {
     margin-top: 0px;
     margin-bottom: 12px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -287,7 +291,7 @@ button {
 /* Section three */
 
 .section-input {
-    height: 422px;
+    /* height: 422px; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -349,7 +353,7 @@ button {
     height: 24px;
     left: 13px;
     top: 13px;
-    opacity: 0.2;
+    opacity: 0.99;
 }
 
 .section-input .input-field .input-part input[type="text"] {
@@ -389,7 +393,7 @@ button {
     flex-direction: row;
     align-items: center;
     padding: 64px 80px;
-    height: 548px;
+    /* height: 548px; */
     background-color: #F1F1F1;
 }
 
@@ -581,6 +585,7 @@ button {
     align-items: center;
     padding: 0px;
     gap: 16px;
+    width: 804px;
     height: 38px;
 }
 
@@ -595,7 +600,7 @@ button {
     background-color: #FFFFFF;
 }
 
-.frame .footer .links .credits button p {
+.frame .footer .links .credits button p  {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
