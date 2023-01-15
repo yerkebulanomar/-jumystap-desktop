@@ -600,7 +600,7 @@ button {
     background-color: #FFFFFF;
 }
 
-.frame .footer .links .credits button p  {
+.frame .footer .links .credits button p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -644,4 +644,20 @@ button {
     align-items: center;
     text-align: center;
     color: #081E34;
+}
+
+a:link {
+    color: #081E34;
+}
+
+a:visited {
+    color: #081E34
+}
+
+a:hover {
+    color: #081E34
+}
+
+a:active {
+    color: #081E34
 }
