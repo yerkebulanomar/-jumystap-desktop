@@ -25,7 +25,7 @@ button {
     align-items: center;
     padding-left: 80px;
     padding-right: 80px;
-    height: 62px;
+    /* height: 62px; */
 }
 
 .nav-logo {
@@ -108,13 +108,13 @@ button {
     flex-direction: column;
     align-items: flex-start;
     width: 495px;
-    height: 366px;
+    /* height: 366px; */
     margin-right: 165px;
 }
 
 .description .info .get-hired-text {
     width: 495px;
-    height: 192px;
+    /* height: 192px; */
     font-family: 'Kanit', sans-serif;
     font-size: 54px;
     letter-spacing: 0.04em;
@@ -131,7 +131,7 @@ button {
 
 .description .info .best-tool-text {
     width: 495px;
-    height: 44px;
+    /* height: 44px; */
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -155,34 +155,9 @@ button {
 }
 
 .description .visual {
-    position: relative;
     width: 619px;
     height: 420px;
     border-radius: 32px;
-    overflow: hidden;
-}
-
-.description .visual .back-photo {
-    position: absolute;
-    width: 687px;
-    height: 458px;
-    left: -34px;
-    top: -12px;
-}
-
-.description .visual .dollar {
-    position: absolute;
-    width: 139px;
-    height: 181px;
-    left: 213px;
-    top: 0px;
-}
-
-.description .visual .fire {
-    position: absolute;
-    width: 148px;
-    height: 172px;
-    margin: 217px 34px 31px 437px;
 }
 
 /* Section two */
@@ -192,13 +167,13 @@ button {
 }
 
 .section-how-it-works .how-it-works {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #E1DEE7;
-    padding: 100px 80px;
-    border-radius: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #E1DEE7;
+        padding: 100px 80px;
+        border-radius: 32px;    
 }
 
 .text-box {
@@ -223,7 +198,7 @@ button {
 .text-box .upper-text {
     margin-bottom: 0px;
     margin-top: 0px;
-    font-family: 'Kanit';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 54px;
@@ -242,7 +217,7 @@ button {
     flex-direction: column;
     align-items: flex-start;
     width: 400px;
-    height: 186px;
+    /* height: 186px; */
     margin-right: 40px;
 }
 
@@ -252,7 +227,7 @@ button {
     flex-direction: column;
     align-items: flex-start;
     width: 400px;
-    height: 186px;
+    /* height: 186px; */
     margin-right: 40px;
 }
 
@@ -261,7 +236,7 @@ button {
     flex-direction: column;
     align-items: flex-start;
     width: 400px;
-    height: 186px;
+    /* height: 186px; */
 }
 
 .steps img {
@@ -661,3 +636,4 @@ a:hover {
 a:active {
     color: #081E34
 }
+
