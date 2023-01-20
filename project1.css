@@ -378,16 +378,16 @@ button {
     align-items: center;
 }
 
-.CV-submission .visual {
-    position: relative;
+.CV-submission .visual2 {
+    /* position: relative; */
     width: 619px;
     height: 420px;
     border-radius: 24px;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin-right: 128px;
 }
 
-.CV-submission .visual .dude {
+/* .CV-submission .visual .dude {
     position: absolute;
     width: 700px;
     height: 466.67px;
@@ -409,7 +409,7 @@ button {
     height: 144px;
     left: 22px;
     top: 138px;
-}
+} */
 
 .CV-submission .text-part {
     display: flex;
