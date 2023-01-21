@@ -4,6 +4,8 @@
 body {
     margin: 0;
     width: 100%;
+    background-color: #F1F1F1;
+
 }
 
 button {
@@ -475,50 +477,49 @@ button {
 /* Footer  */
 
 .frame {
-    height: 172px;
-    background-color: #F1F1F1;
+    /* height: 172px; */
 }
 
-.frame .footer {
+.footer {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding: 32px 80px;
     gap: 32px;
-    position: relative;
+    /* position: relative;
     left: 0px;
-    top: 0px;
+    top: 0px; */
     background: #FFFFFF;
     border-radius: 32px 32px 0px 0px;
 }
 
-.frame .footer .links {
+.footer .links {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-start;
     padding: 0px;
-    gap: 185px;
-    height: 38px;
+    /* gap: 185px;
+    height: 38px; */
 }
 
-.frame .footer .links .menu {
+.footer .links .menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 0px;
-    gap: 16px;
-    height: 38px;
+    /* gap: 16px; */
+    /* height: 38px; */
 }
 
-.frame .footer .links .menu button {
+.footer .links .menu button {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 10px 12px;
-    gap: 8px;
+    /* gap: 8px; */
     border-radius: 100px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -533,38 +534,38 @@ button {
 
 }
 
-.frame .footer .links .menu .home-footer {
+.footer .links .menu .home-footer {
     width: 64px;
     height: 38px;
 }
 
-.frame .footer .links .menu .about-us-footer {
+.footer .links .menu .about-us-footer {
     width: 85px;
     height: 38px;
 }
 
-.frame .footer .links .menu .how-it-works-footer {
+ .footer .links .menu .how-it-works-footer {
     width: 111px;
     height: 38px;
 }
 
-.frame .footer .links .menu img {
+ .footer .links .menu img {
     width: 24px;
     height: 24px;
 }
 
-.frame .footer .links .credits {
+ .footer .links .credits {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 0px;
-    gap: 16px;
-    width: 804px;
-    height: 38px;
+    /* gap: 16px; */
+
+    /* height: 38px; */
 }
 
-.frame .footer .links .credits button {
+ /* .footer .links .credits button {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -573,31 +574,33 @@ button {
     gap: 8px;
     border-radius: 100px;
     background-color: #FFFFFF;
-}
+} */
 
-.frame .footer .links .credits button p {
+ .footer .links p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
     display: flex;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
     color: #081E34;
     opacity: 0.5;
+    padding: 0;
+    max-width: 100%;
 }
 
-.frame .footer .made-with-love {
+ .footer .made-with-love {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 16px;
-    height: 38px;
+    /* gap: 16px; */
+    /* height: 38px; */
 }
 
-.frame .footer .made-with-love button {
+ .footer .made-with-love button {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -609,7 +612,7 @@ button {
     background-color: #FFFFFF;
 }
 
-.frame .footer .made-with-love button p {
+.footer .made-with-love button p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
