@@ -144,8 +144,13 @@ button {
     padding: 0;
     margin: 32px 0 48px 0;
 }
+.description .info .how-it-works-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.description .info .how-it-works {
+.description .info .how-it-works-button button {
     display: flex;
     align-items: center;
     justify-content: center;

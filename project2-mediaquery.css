@@ -1,7 +1,6 @@
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 820px) {
     body {
         width: 100%;
-
     }
 
     /* section one */
@@ -68,13 +67,13 @@
         margin: 7% 0 14% 0;
     }
 
-    .description .info .how-it-works {
-        margin: 0 25%; 
+    .description .info .how-it-works-button {
+        width: 100%;
     }
 
     .description .visual {
-        width: 312px;
-        height: 210px;
+        width: 87%;
+        height: 58%;
     }
 
     /* section two */
@@ -193,8 +192,8 @@
     }
 
     .CV-submission .visual2 {
-        width: 312px;
-        height: 210px;
+        width: 87%;
+        height: 58%;
         border-radius: 32px;
         margin: 0 0 35% 0;
     }
