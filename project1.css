@@ -542,16 +542,19 @@ button {
 .footer .links .menu .about-us-footer {
     width: 85px;
     height: 38px;
+    margin-left: 16px;
 }
 
  .footer .links .menu .how-it-works-footer {
     width: 111px;
     height: 38px;
+    margin-left: 16px;
 }
 
  .footer .links .menu img {
     width: 24px;
     height: 24px;
+    margin-left: 16px;
 }
 
  .footer .links .credits {
@@ -583,12 +586,17 @@ button {
     font-size: 14px;
     line-height: 18px;
     display: flex;
-    align-items: flex-start;
+    align-items: left;
     text-align: left;
+    justify-content: center;
     color: #081E34;
     opacity: 0.5;
     padding: 0;
-    max-width: 100%;
+    max-width: 779px;
+    margin: 12px 0 0 205px;
+    /* overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
 }
 
  .footer .made-with-love {
@@ -605,7 +613,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px 12px;
+    padding: 10px 0px;
     gap: 8px;
     height: 38px;
     border-radius: 100px;
