@@ -27,7 +27,6 @@ button {
     align-items: center;
     padding-left: 80px;
     padding-right: 80px;
-    /* height: 62px; */
 }
 
 .nav-logo {
@@ -102,7 +101,6 @@ button {
     display: flex;
     align-items: center;
     padding: 100px 80px 100px 80px;
-    /* height: 620px; */
 }
 
 .description .info {
@@ -110,13 +108,11 @@ button {
     flex-direction: column;
     align-items: flex-start;
     width: 495px;
-    /* height: 366px; */
     margin-right: 165px;
 }
 
 .description .info .get-hired-text {
     width: 495px;
-    /* height: 192px; */
     font-family: 'Kanit', sans-serif;
     font-size: 54px;
     letter-spacing: 0.04em;
@@ -133,7 +129,6 @@ button {
 
 .description .info .best-tool-text {
     width: 495px;
-    /* height: 44px; */
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -224,7 +219,6 @@ button {
     flex-direction: column;
     align-items: flex-start;
     width: 400px;
-    /* height: 186px; */
     margin-right: 40px;
 }
 
@@ -234,7 +228,6 @@ button {
     flex-direction: column;
     align-items: flex-start;
     width: 400px;
-    /* height: 186px; */
     margin-right: 40px;
 }
 
@@ -243,7 +236,6 @@ button {
     flex-direction: column;
     align-items: flex-start;
     width: 400px;
-    /* height: 186px; */
 }
 
 .steps img {
@@ -273,7 +265,6 @@ button {
 /* Section three */
 
 .section-input {
-    /* height: 422px; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -287,7 +278,6 @@ button {
     flex-direction: column;
     align-items: flex-start;
     width: 757px;
-    /* height: 222px; */
 }
 
 .section-input .input-field .lets-get-started-text {
@@ -326,7 +316,6 @@ button {
 .section-input .input-field .input-part {
     display: flex;
     align-items: flex-start;
-    /* height: 50px; */
 }
 
 .input-part img {
@@ -375,7 +364,6 @@ button {
     flex-direction: row;
     align-items: center;
     padding: 64px 80px;
-    /* height: 548px; */
     background-color: #F1F1F1;
 }
 
@@ -386,37 +374,12 @@ button {
 }
 
 .CV-submission .visual2 {
-    /* position: relative; */
     width: 619px;
     height: 420px;
     border-radius: 24px;
-    /* overflow: hidden; */
     margin-right: 128px;
 }
 
-/* .CV-submission .visual .dude {
-    position: absolute;
-    width: 700px;
-    height: 466.67px;
-    left: -40px;
-    top: -23px;
-}
-
-.CV-submission .visual .star {
-    position: absolute;
-    width: 97px;
-    height: 94px;
-    left: 213px;
-    top: 28px;
-}
-
-.CV-submission .visual .lightning {
-    position: absolute;
-    width: 87px;
-    height: 144px;
-    left: 22px;
-    top: 138px;
-} */
 
 .CV-submission .text-part {
     display: flex;
@@ -481,19 +444,12 @@ button {
 
 /* Footer  */
 
-.frame {
-    /* height: 172px; */
-}
-
 .footer {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding: 32px 80px;
     gap: 32px;
-    /* position: relative;
-    left: 0px;
-    top: 0px; */
     background: #FFFFFF;
     border-radius: 32px 32px 0px 0px;
 }
@@ -504,8 +460,6 @@ button {
     justify-content: flex-end;
     align-items: flex-start;
     padding: 0px;
-    /* gap: 185px;
-    height: 38px; */
 }
 
 .footer .links .menu {
@@ -514,8 +468,6 @@ button {
     justify-content: center;
     align-items: center;
     padding: 0px;
-    /* gap: 16px; */
-    /* height: 38px; */
 }
 
 .footer .links .menu button {
@@ -524,7 +476,6 @@ button {
     justify-content: center;
     align-items: center;
     padding: 10px 12px;
-    /* gap: 8px; */
     border-radius: 100px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -568,21 +519,9 @@ button {
     justify-content: center;
     align-items: center;
     padding: 0px;
-    /* gap: 16px; */
-
-    /* height: 38px; */
 }
 
- /* .footer .links .credits button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 12px;
-    gap: 8px;
-    border-radius: 100px;
-    background-color: #FFFFFF;
-} */
+
 
  .footer .links p {
     font-family: 'Inter', sans-serif;
@@ -599,9 +538,6 @@ button {
     padding: 0;
     max-width: 800px;
     margin: 12px 0 0 205px;
-    /* overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis; */
 }
 
  .footer .made-with-love {
@@ -609,8 +545,6 @@ button {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    /* gap: 16px; */
-    /* height: 38px; */
 }
 
  .footer .made-with-love button {
@@ -838,12 +772,10 @@ a:active {
 
     .section-CV-submission {
         padding: 17% 7%;
-        /* width: 100%; */
     }
 
     .CV-submission {
         flex-direction: column;
-        /* width: 86%; */
     }
 
     .CV-submission .visual2 {
@@ -905,11 +837,10 @@ a:active {
     }
 
     .footer .links  p {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 24px;
         padding: 10% 0 10% 0;
         margin: 0;
-        display: inline-block;
     }
 
     .footer .made-with-love {
